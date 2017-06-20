@@ -2,7 +2,8 @@
 
 namespace Zakharkin\CustomStaticCache;
 
-class Cache {
+class CustomStaticCache
+{
     const NO_CACHE_HEADER = 'No-Custom-Cache';
 
     private static $_instance = null;
