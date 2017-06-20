@@ -16,11 +16,9 @@ Laravel 5 is released!!
 
 ### Composer
 
-Add Laravel Localization to your `composer.json` file.
+Download via composer.
 
-    "andreizakharkin/custom-static-caching": "dev-master"
-
-Run `composer install` to get the latest version of the package.
+    composer require andreizakharkin/custom-static-caching
 
 ### Laravel
 
