@@ -35,7 +35,7 @@ Open `config/app.php` and find the `providers` key. Add `CustomStaticCacheServic
 Publish vendor config
 
 ```text
-	php artisan vendor:publish
+	php artisan vendor:publish --provider="Zakharkin\CustomStaticCache\CustomStaticCacheServiceProvider" --tag="config"
 ```
 
 ## Usage
