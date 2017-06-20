@@ -2,3 +2,5 @@
 .idea
 src/Zakharkin/CustomStaticCache/files/*
 src/Zakharkin/CustomStaticCache/pids/*
+
+!.gitkeep
