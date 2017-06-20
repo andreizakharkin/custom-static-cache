@@ -18,7 +18,7 @@ Laravel 5 is released!!
 
 Download via composer.
 
-    composer require andreizakharkin/custom-static-caching
+    composer require andreizakharkin/custom-static-caching:dev-master
 
 ### Laravel
 
