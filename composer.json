@@ -1,0 +1,27 @@
+{
+  "name": "andreizakharkin/custom-static-caching",
+  "description": "Custom static caching",
+  "keywords": ["caching", "php"],
+  "type": "library",
+  "license": "MIT",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Andrei Zakharkin",
+      "email": "andrei.zakharkin@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+      "php": ">=5.6.0",
+      "laravel/framework": "~5.2"
+  },
+  "autoload": {
+    "classmap": [
+    ],
+    "psr-0": {
+      "Zakharkin\\CustomStaticCache": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}

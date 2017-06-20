@@ -1,0 +1,4 @@
+.DS_Store
+.idea
+src/Zakharkin/CustomStaticCache/files/*
+src/Zakharkin/CustomStaticCache/pids/*
