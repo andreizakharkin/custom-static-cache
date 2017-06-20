@@ -11,7 +11,7 @@ return [
     | "list" - cache pages listed in the "whitelist"
     |
     */
-    'type' => 'all', // "all" or "list"
+    'type' => 'list', // "all" or "list"
 
     /*
     |--------------------------------------------------------------------------
