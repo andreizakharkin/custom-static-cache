@@ -21,6 +21,5 @@
     "psr-0": {
       "Zakharkin\\CustomStaticCache": "src/"
     }
-  },
-  "minimum-stability": "stable"
+  }
 }
