@@ -28,10 +28,10 @@ class CustomStaticCache
 
     private function _setConfig()
     {
-        if(file_exists(realpath(__DIR__ . '/../../../../../config/custom-static-cache.php'))) {
-            $this->_config = include('../../../../../config/custom-static-cache.php');
+        if(file_exists(realpath(__DIR__ . '/../../../../../../config/custom-static-cache.php'))) {
+            $this->_config = include(realpath(__DIR__ . '/../../../../../../config/custom-static-cache.php'));
         } else {
-            $this->_config = include('../../config/config.php');
+            $this->_config = include(realpath(__DIR__  . '/../../config/config.php'));
         }
     }
 
